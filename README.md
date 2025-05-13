@@ -1,2 +1,31 @@
-# Prediction Brain Tumor Using MRI Picture
-One of the important organs in the human body is the brain. The brain plays many roles in human life. With the brain, humans can receive information and perform activities because the brain is the central nervous system of humans. However, like other organs, the brain certainly has dangerous diseases. One of the dangerous brain diseases is brain tumors. There are 4 types of brain tumors, namely glioma, meningioma, notumor, and pituitary. To obtain images of brain tumors, an MRI can be performed. However, MRI cannot directly classify the types of brain tumors. Therefore, a system is needed that can classify the types of brain tumors. One suitable method for classification is KNN. This classification also requires features, so thresholding and edge detection methods, namely Canny Segmentation and Sobel Segmentation, are used to obtain the number of white pixels. The research results prove that the methods used are quite good with an accuracy value of 75.85%, precision value of 75.13%, recall value of 75.34%, and F1 Score value of 0.75.
+![Preview](Brain Tumor.png)
+# Brain Tumor Prediction Using MRI Scans
+
+This project aims to classify brain tumor types using MRI images. The brain is one of the most vital organs in the human body, acting as the central nervous system. Like other organs, it is vulnerable to serious diseases — one of which is brain tumors. There are four types of brain tumors considered in this project: **glioma**, **meningioma**, **pituitary**, and **no tumor**.
+
+## 🧠 Problem Background
+
+MRI (Magnetic Resonance Imaging) is commonly used to capture brain scans, but it does not inherently classify tumor types. To assist medical diagnosis, this project develops a system that classifies MRI images using image processing and machine learning.
+
+## 🔍 Methods
+
+- **Feature Extraction**: 
+  - Canny and Sobel edge detection are applied to extract meaningful features (number of white pixels).
+- **Classification**: 
+  - K-Nearest Neighbors (KNN) algorithm is used for tumor classification.
+
+## 🛠 Tools & Libraries
+
+- Python
+- OpenCV (for image segmentation)
+- scikit-learn (for KNN model)
+- Jupyter Notebook / Google Colab
+
+## ✅ Results
+
+- **Accuracy**: 75.85%
+- **Precision**: 75.13%
+- **Recall**: 75.34%
+- **F1 Score**: 0.75
+
+These results show that the chosen methods can classify brain tumor types with decent performance and have the potential to assist early diagnosis efforts.
