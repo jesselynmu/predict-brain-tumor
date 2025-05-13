@@ -1,4 +1,5 @@
 ![Preview](Brain Tumor.png)
+
 # Brain Tumor Prediction Using MRI Scans
 
 This project aims to classify brain tumor types using MRI images. The brain is one of the most vital organs in the human body, acting as the central nervous system. Like other organs, it is vulnerable to serious diseases — one of which is brain tumors. There are four types of brain tumors considered in this project: **glioma**, **meningioma**, **pituitary**, and **no tumor**.
