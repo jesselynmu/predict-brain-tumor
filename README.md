@@ -1,4 +1,4 @@
-![Preview]([Brain Tumor.png](https://github.com/jesselynmu/predict-brain-tumor/blob/main/Brain%20Tumor.png))
+![Preview][Brain_Tumor.png]
 
 # Brain Tumor Prediction Using MRI Scans
 
